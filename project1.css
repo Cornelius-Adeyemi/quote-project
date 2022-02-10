@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+
+    transition: all 1.5s;
+  
+}
+
+#quote-box{
+    padding: 40px 40px;
+    width:35%;
+    background-color: white;
+    position:relative;
+    top:150px;
+    height: auto;
+    
+    margin:auto;
+    box-shadow: 0 0 20px black;
+    transition: all 1.5s;
+}
+
+#text{
+    text-align: center;
+    font-size: 30px;
+    transition: all 1.5s;
+}
+
+#author{
+    
+    text-align: right;
+    transition: all 1.5s;
+    
+}
+
+#flex-item{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+#new-quote{
+    width: 100px;
+    height: 38px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    transition: all 1.5s;
+    background-color: transparent;
+
+}
+
+#text-in{
+ 
+    
+    transition: all 0.5s;
+
+}
+
+#givesColor{
+    transition: all 1.5s;
+}
+
+#second{
+    margin-left: -16px;
+}
